@@ -155,7 +155,7 @@ app.post('/login', async (req, res) => {
 });
 
 app.get('/dashboard', isAuthenticated, (req, res) => {
-  res.send("Welcome User 🎉");
+  res.send("Welcome User ");
 });
 
 
